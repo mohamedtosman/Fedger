@@ -1,0 +1,5 @@
+  Endpoint returning list of all pets in our database.
+  ---
+  responses:
+    200:
+      description: A list of all pets

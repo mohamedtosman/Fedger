@@ -1,0 +1,14 @@
+  Endpoint returning a specific pet using an id
+  ---
+  parameters:
+    - name: id
+      in: path
+      type: string
+      required: true
+  responses:
+    200:
+      description: A json object of pet
+    403:
+      description: ID must be an integer
+    404:
+      description: Pet does not exist in database
